@@ -1,0 +1,170 @@
+{
+  "name": "Merlinius Mumblepuff",
+  "personalData": {
+    "dateOfBirth": "30th February 1555",
+    "birthplace": "Wizardsville (Magical Realm)",
+    "maritalStatus": "Single",
+    "citizenship": "Wizarding World, Elvish Realm"
+  },
+  "contactData": {
+    "phone": "+1-(555)-1234567",
+    "address": "Enchanted Forest, Cauldron Cottage, Wizarding Realm",
+    "email": "harry@wizardlymail.com",
+    "web": "https://magicalharry.com",
+    "linkedin": "https://magical.linkedin.com/in/harrywizard"
+  },
+  "education": [{
+      "institution": {
+        "name": "School of Magic and Sorcery",
+        "city": "Wizville",
+        "country": "Magical Realm",
+        "url": "https://www.wizvillemagic.edu/"
+      },
+      "period": {
+        "startDate": "2001",
+        "endDate": "2005"
+      },
+      "degree": "Bachelor of Wizardry",
+      "thesis": {
+        "title": "The Art of Pranks and Mischief Spells",
+        "publicationDate": "June 2005",
+        "url": "https://example.com/magical-thesis"
+      },
+      "description": "During my time at the School of Magic and Sorcery, I excelled in the art of pranks and mischief spells. I became known for my ability to turn professors' robes into polka dot patterns and conjure endless buckets of confetti during important exams. My thesis explored innovative methods of magical mischief, including invisible banana peels and self-writing prank scripts."
+    },
+    {
+      "institution": {
+        "name": "Dragon Riding Academy",
+        "city": "Fireholm",
+        "country": "Dragonlands",
+        "url": "https://www.dragonridingacademy.com/"
+      },
+      "period": {
+        "startDate": "2006",
+        "endDate": "2007"
+      },
+      "degree": "Certified Dragon Rider",
+      "description": "At the Dragon Riding Academy, I learned the ancient art of riding and communicating with dragons. I trained under skilled instructors to master the technique of flying on dragonback and navigating treacherous skies. I even won the 'Best Fire Breathing' competition during my final exams, setting a new record for the most marshmallows toasted in a single breath of fire!"
+    },
+    {
+      "institution": {
+        "name": "Potion Brewing Institute",
+        "city": "Bubblington",
+        "country": "Enchanted Forest",
+        "url": "https://www.potionbrewinginstitute.org/"
+      },
+      "period": {
+        "startDate": "2008",
+        "endDate": "2010"
+      },
+      "degree": "Master of Potion Making",
+      "thesis": {
+        "title": "The Art of Quirky Concoctions",
+        "publicationDate": "December 2010",
+        "url": "https://example.com/potion-thesis"
+      },
+      "description": "During my studies at the Potion Brewing Institute, I delved into the world of magical mixology. I concocted potions that could turn ordinary frogs into opera singers and create floating bubblegum clouds. My thesis focused on the development of a potion that could make people laugh uncontrollably for hours. The resulting laughter epidemic in Bubblington was quite a memorable event!"
+    }
+  ],
+  "work": [{
+      "organization": {
+        "name": "Prankster's Paradise",
+        "city": "Laughington",
+        "country": "Whimsical Realm",
+        "url": "https://www.prankstersparadise.com"
+      },
+      "period": {
+        "startDate": "Feb. 2023",
+        "endDate": "Present"
+      },
+      "title": "Chief Mischief Officer",
+      "description": "At Prankster's Paradise, I lead a team of mischievous pranksters in creating unforgettable moments of laughter and surprise. We specialize in elaborate pranks, ingenious gags, and hilarious practical jokes that bring joy to people's lives. From sneezing confetti canons to disappearing donuts, we are dedicated to spreading laughter and merriment wherever we go."
+    },
+    {
+      "organization": {
+        "name": "Wacky Widgets Inc.",
+        "city": "Crazytown",
+        "country": "Fantasyland",
+        "url": "https://www.wackywidgets.com"
+      },
+      "period": {
+        "startDate": "Jan. 2022",
+        "endDate": "Dec. 2022"
+      },
+      "title": "Chief Widget Wrangler",
+      "description": "At Wacky Widgets Inc., I was in charge of designing and manufacturing whimsical widgets that defy logic and reason. From levitating tea cups to singing umbrellas, our widgets were the talk of the town. I collaborated with a team of creative inventors and engineers to bring these fantastical contraptions to life, ensuring they brought smiles and wonder to people's lives."
+    },
+    {
+      "organization": {
+        "name": "Jester's Guild",
+        "city": "Mirthville",
+        "country": "Jollyland",
+        "url": "https://www.jestersguild.org"
+      },
+      "period": {
+        "startDate": "Oct. 2016",
+        "endDate": "Apr. 2021"
+      },
+      "title": "Head Trickster",
+      "description": "As the Head Trickster at the Jester's Guild, I was responsible for organizing and performing comedy shows, improvisational acts, and slapstick routines. I honed my skills in quick wit, physical comedy, and hilarious puns, entertaining audiences with my comedic antics. My pranks and practical jokes never failed to bring laughter and cheer to the kingdom of Jollyland."
+    },
+    {
+      "organization": {
+        "name": "Foolish Fables Publishing",
+        "city": "Quirktown",
+        "country": "Whimsyland",
+        "url": "https://www.foolishfables.com"
+      },
+      "period": {
+        "startDate": "Jan. 2015",
+        "endDate": "Aug. 2016"
+      },
+      "title": "Chief Storyteller",
+      "description": "As the Chief Storyteller at Foolish Fables Publishing, I wrote and illustrated humorous children's books filled with silly characters, absurd adventures, and ridiculous rhymes. From ticklish trolls to burping unicorns, my stories brought laughter and joy to young readers across Whimsyland. I also performed interactive storytelling sessions, captivating children with my animated storytelling style."
+    },
+    {
+      "organization": {
+        "name": "Circus of Wonders",
+        "city": "Marvelville",
+        "country": "Enchantia",
+        "url": "https://www.circusofwonders.com"
+      },
+      "period": {
+        "startDate": "Feb. 2013",
+        "endDate": "Jun. 2013"
+      },
+      "title": "Master of Merriment",
+      "description": "At the Circus of Wonders, I dazzled audiences with my comedic skills and hilarious performances. Whether it was juggling rubber chickens, balancing on a unicycle while wearing a clown nose, or cracking jokes that made elephants giggle, I brought laughter and merriment to the enchanting world of the circus. My mischievous antics and witty banter made me a beloved performer under the big top."
+    }
+  ],
+  "skills": [{
+      "name": "Potions",
+      "entries": ["Bewitching Elixirs", "Enchanted Concoctions", "Mystical Brews", "Potion Brewing", "Alchemy", "Magical Infusions", "Herbology", "Potion Ingredients", "Potion Mixing Techniques", "Potion Recipes", "Potion Effects", "Potion Tasting", "Potion Identification", "Potion Customization", "Potion Mastery", "Magical Compounding", "Potion Safety", "Potion Storage", "Potion Labeling"]
+    },
+    {
+      "name": "Magic",
+      "entries": ["Transfiguration", "Divination", "Charms", "Potions", "Enchantments", "Curses", "Alchemy", "Spell-breaking", "Magical Creatures", "Ancient Runes", "Astrology", "Illusions", "Telekinesis", "Telepathy", "Necromancy", "Summoning", "Fire Magic", "Water Magic", "Air Magic", "Earth Magic"]
+    },
+    {
+      "name": "Soft Skills",
+      "entries": ["Whimsical Storytelling", "Astute Spell Improvisation", "Charming Persuasion", "Intuitive Potion Mixing", "Empathetic Enchanting", "Adaptive Magic Problem Solving", "Resourceful Spell Adaptation"]
+    },
+    {
+      "name": "Personal Interests",
+      "entries": ["Mythical Creature Taxidermy", "Enchanted Garden Tending", "Magical Recipe Invention", "Wand Crafting", "Cryptic Puzzle Solving"]
+    }
+  ],
+  "languages": [{
+      "language": "Wizardry",
+      "level": "Native tongue of magic spells and enchantments."
+    },
+    {
+      "language": "Goblinese",
+      "level": "Fluent in negotiating with mischievous goblins."
+    },
+    {
+      "language": "Dragonese",
+      "level": "Proficient in conversing with fire-breathing dragons."
+    }
+  ]
+}
