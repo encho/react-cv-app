@@ -1,4 +1,4 @@
-# Hello, this is the Readme of the react-cv-app Project
+# react-cv-app
 
 ## Installation
 
@@ -16,7 +16,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-## Bring your own Data
+## Bring your own data & create your CV
 
 1. Create a file with the same structure as the file `/src/cv/data/MerliniusMumblepuff.json` with your own data, to generate your personalized CV.
 
