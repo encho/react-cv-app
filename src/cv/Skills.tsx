@@ -3,13 +3,12 @@ import { Text, View } from "@react-pdf/renderer";
 import { sizePerc } from "../A4Page";
 import { SectionTitle } from "./SectionTitle";
 import { styles } from "./styles";
+import { CVData } from "./CVData";
 
-type TSkills = { name: string; entries: string[] }[];
-
-export const Skills = ({ skills }: { skills: TSkills }) => {
+export const Skills = ({ skills, intl }: CVData) => {
   return (
     <View>
-      <SectionTitle>Skills and Abilities</SectionTitle>
+      <SectionTitle>{intl.skillsAndAbilities}</SectionTitle>
       <View style={styles.verticalItemsLayout}>
         {skills.map(({ name, entries }, i) => {
           return (

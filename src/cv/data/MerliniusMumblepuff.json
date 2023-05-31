@@ -1,5 +1,24 @@
 {
   "name": "Merlinius Mumblepuff",
+  "intl": {
+    "personalData": {
+      "dateOfBirth": "Date of Birth",
+      "birthplace": "Birthplace",
+      "maritalStatus": "Marital Status",
+      "citizenship": "Citizenship"
+    },
+    "contactData": {
+      "phone": "Phone",
+      "address": "Address",
+      "email": "E-Mail",
+      "web": "Web",
+      "linkedin": "LinkedIn"
+    },
+    "languages": "Languages",
+    "skillsAndAbilities": "Skills and Abilities",
+    "education": "Education",
+    "professionalExperience": "Professional Experience"
+  },
   "personalData": {
     "dateOfBirth": "30th February 1555",
     "birthplace": "Wizardsville (Magical Realm)",

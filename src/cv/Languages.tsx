@@ -3,13 +3,12 @@ import { Text, View } from "@react-pdf/renderer";
 import { sizePerc, widthPerc } from "../A4Page";
 import { SectionTitle } from "./SectionTitle";
 import { styles } from "./styles";
+import { CVData } from "./CVData";
 
-type TLanguages = { language: string; level: string }[];
-
-export const Languages = ({ languages }: { languages: TLanguages }) => {
+export const Languages = ({ languages, intl }: CVData) => {
   return (
     <View wrap={false}>
-      <SectionTitle>Languages</SectionTitle>
+      <SectionTitle>{intl.languages}</SectionTitle>
       <View
         style={{
           display: "flex",

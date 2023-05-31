@@ -3,6 +3,7 @@ import { Text, View, Link } from "@react-pdf/renderer";
 import { styles } from "./styles";
 import { SectionTitle } from "./SectionTitle";
 import { sizePerc, widthPerc } from "../A4Page";
+import { CVData } from "./CVData";
 
 type EducationItem = {
   institution: {
@@ -57,10 +58,10 @@ const ItemHeader = ({
   );
 };
 
-export const Education = ({ education }: { education: EducationItem[] }) => {
+export const Education = ({ education, intl }: CVData) => {
   return (
     <View style={{}}>
-      <SectionTitle>Education</SectionTitle>
+      <SectionTitle>{intl.education}</SectionTitle>
 
       <View style={styles.verticalItemsLayout}>
         {education.map((educationItem, i) => {

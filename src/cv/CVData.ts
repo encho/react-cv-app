@@ -1,5 +1,25 @@
 export type CVData = {
   name: string;
+  intl: {
+    personalData: {
+      dateOfBirth: string;
+      birthplace: string;
+      maritalStatus: string;
+      citizenship: string;
+    };
+    contactData: {
+      phone: string;
+      address: string;
+      email: string;
+      web: string;
+      linkedin: string;
+    };
+    languages: string;
+    skillsAndAbilities: string;
+    education: string;
+    professionalExperience: string;
+  };
+
   personalData: {
     dateOfBirth?: string;
     birthplace?: string;

@@ -2,6 +2,7 @@ import { Text, View, Link } from "@react-pdf/renderer";
 
 import { styles } from "./styles";
 import { SectionTitle } from "./SectionTitle";
+import { CVData } from "./CVData";
 
 type WorkItem = {
   organization: {
@@ -51,10 +52,10 @@ const ItemHeader = ({
   );
 };
 
-export const Work = ({ work }: { work: WorkItem[] }) => {
+export const Work = ({ work, intl }: CVData) => {
   return (
     <View>
-      <SectionTitle>Professional Experience</SectionTitle>
+      <SectionTitle>{intl.professionalExperience}</SectionTitle>
       <View style={styles.verticalItemsLayout}>
         {work.map((workItem, i) => {
           return (

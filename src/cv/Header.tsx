@@ -1,30 +1,32 @@
 import { Text, View, Link } from "@react-pdf/renderer";
 
+import { CVData } from "./CVData";
+
 import { styles } from "./styles";
 import { sizePerc } from "../A4Page";
 
-type ContactData = {
-  phone?: string;
-  address?: string;
-  email?: string;
-  web?: string;
-  linkedin?: string;
-};
+// type ContactData = {
+//   phone?: string;
+//   address?: string;
+//   email?: string;
+//   web?: string;
+//   linkedin?: string;
+// };
 
-type PersonalData = {
-  dateOfBirth?: string;
-  birthplace?: string;
-  maritalStatus?: string;
-  citizenship?: string;
-};
+// type PersonalData = {
+//   dateOfBirth?: string;
+//   birthplace?: string;
+//   maritalStatus?: string;
+//   citizenship?: string;
+// };
 
-type HeaderProps = {
-  name: string;
-  contactData: ContactData;
-  personalData: PersonalData;
-};
+// type HeaderProps = {
+//   name: string;
+//   contactData: ContactData;
+//   personalData: PersonalData;
+// };
 
-export const Header = ({ name, contactData, personalData }: HeaderProps) => {
+export const Header = ({ name, contactData, personalData, intl }: CVData) => {
   return (
     <View>
       <View style={{ marginBottom: sizePerc(1.5) }}>
@@ -38,20 +40,26 @@ export const Header = ({ name, contactData, personalData }: HeaderProps) => {
           {personalData.dateOfBirth ? (
             <ContactItem
               text={personalData.dateOfBirth}
-              label="Date of Birth"
+              label={intl.personalData.dateOfBirth}
             />
           ) : null}
           {personalData.birthplace ? (
-            <ContactItem text={personalData.birthplace} label="Birthplace" />
+            <ContactItem
+              text={personalData.birthplace}
+              label={intl.personalData.birthplace}
+            />
           ) : null}
           {personalData.maritalStatus ? (
             <ContactItem
               text={personalData.maritalStatus}
-              label="Marital Status"
+              label={intl.personalData.maritalStatus}
             />
           ) : null}
           {personalData.citizenship ? (
-            <ContactItem text={personalData.citizenship} label="Citizenship" />
+            <ContactItem
+              text={personalData.citizenship}
+              label={intl.personalData.citizenship}
+            />
           ) : null}
         </View>
       </View>
@@ -59,34 +67,37 @@ export const Header = ({ name, contactData, personalData }: HeaderProps) => {
       <View style={{ marginTop: sizePerc(1.5 / 2) }}>
         <View style={{ display: "flex", gap: sizePerc(0.2) }}>
           {contactData.address ? (
-            <ContactItem text={contactData.address} label="Address" />
+            <ContactItem
+              text={contactData.address}
+              label={intl.contactData.address}
+            />
           ) : null}
           {contactData.email ? (
             <ContactItem
               text={contactData.email}
               link={`mailto:${contactData.email}`}
-              label="E-Mail"
+              label={intl.contactData.email}
             />
           ) : null}
           {contactData.phone ? (
             <ContactItem
               text={contactData.phone}
               link={`tel:${contactData.phone}`}
-              label="Phone"
+              label={intl.contactData.phone}
             />
           ) : null}
           {contactData.web ? (
             <ContactItem
               text={contactData.web}
               link={contactData.web}
-              label="Web"
+              label={intl.contactData.web}
             />
           ) : null}
           {contactData.linkedin ? (
             <ContactItem
               text={contactData.linkedin}
               link={contactData.linkedin}
-              label="LinkedIn"
+              label={intl.contactData.linkedin}
             />
           ) : null}
         </View>
