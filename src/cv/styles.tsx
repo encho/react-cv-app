@@ -18,16 +18,25 @@ const text = {
   "6xl": sizePerc(1.5 * 1.15 ** 6),
 };
 
+// const fontFamily = "Inter";
+const fontFamily = "Helvetica";
+
 export const styles = StyleSheet.create({
+  footer: {
+    fontFamily,
+    fontWeight: 400,
+    fontSize: text["sm"],
+    textDecoration: "none",
+  },
   nameText: {
-    fontFamily: "Inter",
+    fontFamily,
     color: "#222",
     fontSize: text["5xl"],
     fontWeight: 600,
     lineHeight: 1.1,
   },
   sectionHeaderText: {
-    fontFamily: "Inter",
+    fontFamily,
     fontWeight: 600,
     fontSize: text["base"],
     color: textColor,
@@ -36,20 +45,20 @@ export const styles = StyleSheet.create({
     textTransform: "uppercase",
   },
   periodText: {
-    fontFamily: "Inter",
+    fontFamily,
     fontWeight: 400,
     fontSize: text["sm"],
     color: textColor,
   },
   itemTitleText: {
-    fontFamily: "Inter",
+    fontFamily,
     fontWeight: 600,
     fontSize: text["lg"],
     marginTop: sizePerc(-0.3),
     color: textColor,
   },
   itemOrganizationNameLink: {
-    fontFamily: "Inter",
+    fontFamily,
     fontWeight: 500,
     fontSize: text["base"],
     marginTop: sizePerc(0.2),
@@ -57,14 +66,14 @@ export const styles = StyleSheet.create({
     textDecoration: "none",
   },
   itemOrganizationLocationText: {
-    fontFamily: "Inter",
+    fontFamily,
     fontWeight: 400,
     fontSize: text["sm"],
     color: "#222",
     marginTop: sizePerc(0.1),
   },
   itemDescriptionText: {
-    fontFamily: "Inter",
+    fontFamily,
     lineHeight: 1.4,
     fontSize: text["sm"],
     fontWeight: 400,
@@ -72,7 +81,7 @@ export const styles = StyleSheet.create({
     color: textColor,
   },
   contactLink: {
-    fontFamily: "Inter",
+    fontFamily,
     fontSize: text["xs"],
     fontWeight: 400,
     color: linkColor,
@@ -80,19 +89,19 @@ export const styles = StyleSheet.create({
     // textDecoration: "underline",
   },
   contactText: {
-    fontFamily: "Inter",
+    fontFamily,
     fontSize: text["xs"],
     fontWeight: 400,
     color: textColor,
   },
   contactLinkLabel: {
-    fontFamily: "Inter",
+    fontFamily,
     fontSize: text["xs"],
     fontWeight: 500,
     color: textColor,
   },
   badgeText: {
-    fontFamily: "Inter",
+    fontFamily,
     lineHeight: 1.4,
     fontSize: text["sm"],
     fontWeight: 400,
@@ -100,7 +109,7 @@ export const styles = StyleSheet.create({
     color: textColor,
   },
   languageLevelText: {
-    fontFamily: "Inter",
+    fontFamily,
     fontWeight: 400,
     fontSize: text["sm"],
     color: textColor,

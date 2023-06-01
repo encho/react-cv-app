@@ -1,11 +1,11 @@
-import { registerFonts } from "./registerFonts";
+// import { registerFonts } from "./registerFonts";
 import { AppHeader } from "./AppHeader";
 import { CVDocument } from "./cv/CVDocument";
 
 // Replace the file cvData.json with your data, to generate your personalized CV
 import cvData from "./cv/data/MerliniusMumblepuff.json";
 
-registerFonts();
+// registerFonts();
 
 function App() {
   return (

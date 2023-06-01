@@ -7,6 +7,7 @@ import { Education } from "./Education";
 import { Skills } from "./Skills";
 import { Languages } from "./Languages";
 import { CVData } from "./CVData";
+import { styles } from "./styles";
 
 export function CVDocument({ data: cvData }: { data: CVData }) {
   return (
@@ -55,10 +56,10 @@ export function CVDocument({ data: cvData }: { data: CVData }) {
               left: 0,
               right: 0,
               textAlign: "center",
-              fontFamily: "Inter",
-              fontSize: sizePerc(1.25),
-              fontWeight: 400,
-              textDecoration: "none",
+              fontFamily: styles.footer.fontFamily,
+              fontSize: styles.footer.fontSize,
+              fontWeight: styles.footer.fontWeight,
+              textDecoration: styles.footer.textDecoration,
             }}
             render={({ pageNumber, totalPages }) =>
               `${pageNumber} / ${totalPages}`
